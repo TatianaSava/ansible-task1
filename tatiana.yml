@@ -24,12 +24,12 @@
 
   - name: Unarchive a file that needs to be downloaded
     unarchive:
-      src: https://www.free-css.com/free-css-templates/page2/ost-magazine
+      src: https://www.free-css.com/assets/files/free-css-templates/download/page2/ost-magazine.zip
       dest: /tmp/
       remote_src: yes
       
   - name: Copy files
     copy: 
-      src: /tmp/templatemo_530_mini_profile/
+      src: /tmp/ost-magazine/
       dest: /var/www/html
       remote_src: yes 

@@ -24,12 +24,12 @@
 
   - name: Unarchive a file that needs to be downloaded
     unarchive:
-      src: https://www.free-css.com/assets/files/free-css-templates/download/page2/ost-magazine.zip
+      src: https://www.free-css.com/assets/files/free-css-templates/download/page251/eventon-christmas.zip
       dest: /tmp/
       remote_src: yes
       
   - name: Copy files
     copy: 
-      src: /tmp/ost-magazine/
+      src: /tmp/eventon-christmas/
       dest: /var/www/html
       remote_src: yes 
